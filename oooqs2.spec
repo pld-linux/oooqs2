@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 	kde_htmldir=%{_kdedocdir} \
 	shelldesktopdir=%{_desktopdir}/kde
 
-%find_lang oooqs --all-name
+%find_lang oooqs --all-name --with-kde
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -55,4 +55,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/[!l]*/*/*/*
 %{_desktopdir}/kde/*.desktop
 %{_datadir}/autostart/*.desktop
-%{_docdir}/kde/HTML/*/%{name}
