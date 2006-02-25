@@ -21,9 +21,9 @@ KDE SystemTray. It is used to quickly start the different
 OpenOffice.org 2 modules without having to go through the K-Menu.
 
 %description -l pl
-Szybszy start OpenOffice.org 2 jest ma³± aplikacj±, która uruchamia siê w
-KDE System Tray. Mo¿na go u¿ywaæ do przy¶pieszania startu modu³ów 
-OpenOffice.org 2 bez wchodzenia w menu.
+Szybszy start OpenOffice.org 2 jest ma³± aplikacj±, która uruchamia
+siê w KDE System Tray. Mo¿na go u¿ywaæ do przy¶pieszania startu
+modu³ów OpenOffice.org 2 bez wchodzenia w menu.
 
 %prep
 %setup -q
@@ -50,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f oooqs.lang
 %defattr(644,root,root,755)
-#%doc AUTHORS ChangeLog README TODO
+%doc AUTHORS
 %attr(755,root,root) %{_bindir}/*
 %{_iconsdir}/[!l]*/*/*/*
 %{_desktopdir}/kde/*.desktop
