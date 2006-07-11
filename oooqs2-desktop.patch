@@ -1,6 +1,6 @@
---- oooqs2-1.0/src/oooqs2.desktop	2006-02-01 22:38:07.000000000 +0100
-+++ oooqs2-1.0/src/oooqs2.desktop	2006-02-21 11:07:59.000000000 +0100
-@@ -4,11 +4,15 @@
+--- src/oooqs2.desktop.orig	2006-07-11 12:03:57.000000000 +0200
++++ src/oooqs2.desktop	2006-07-11 14:41:27.657169392 +0200
+@@ -4,6 +4,7 @@
  Name[de]=OpenOffice.org Schnellstarter 2
  Name[it]=Avvio Rapido di OpenOffice.org 2
  Name[fr]=D�arrage rapide d'OpenOffice.org 2
@@ -8,11 +8,10 @@
  Exec=oooqs2
  Icon=oooqs2
  Type=Application
+@@ -11,5 +12,6 @@
  Comment=OpenOffice.org's Quickstarter 2 for KDE systems
  Comment[de]=OpenOffice.org's Schnellstarter 2 fr KDE Systeme
  Comment[it]=Avvio Rapido di OpenOffice.org 2 per l'ambiente KDE
 +Comment[pl]=Szybki start OpenOffice.org 2 dla KDE
  X-KDE-autostart-condition=oooqs2rc:General:Autostart:true
  X-KDE-autostart-after=panel
-+Categories=Qt;KDE;Utility;
-+# vi: encoding=utf-8
