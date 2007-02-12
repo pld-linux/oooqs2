@@ -1,5 +1,5 @@
 Summary:	OpenOffice.org 2 Quickstarter
-Summary(pl):	Szybszy start OpenOffice.org 2
+Summary(pl.UTF-8):   Szybszy start OpenOffice.org 2
 Name:		oooqs2
 Version:	1.0.1
 Release:	1
@@ -20,10 +20,10 @@ OpenOffice.org2 Quickstarter is a small application that runs in the
 KDE SystemTray. It is used to quickly start the different
 OpenOffice.org 2 modules without having to go through the K-Menu.
 
-%description -l pl
-Szybszy start OpenOffice.org 2 jest ma³± aplikacj±, która uruchamia
-siê w KDE System Tray. Mo¿na go u¿ywaæ do przy¶pieszania startu
-modu³ów OpenOffice.org 2 bez wchodzenia w menu.
+%description -l pl.UTF-8
+Szybszy start OpenOffice.org 2 jest maÅ‚Ä… aplikacjÄ…, ktÃ³ra uruchamia
+siÄ™ w KDE System Tray. MoÅ¼na go uÅ¼ywaÄ‡ do przyÅ›pieszania startu
+moduÅ‚Ã³w OpenOffice.org 2 bez wchodzenia w menu.
 
 %prep
 %setup -q
