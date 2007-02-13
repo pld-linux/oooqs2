@@ -1,5 +1,5 @@
 Summary:	OpenOffice.org 2 Quickstarter
-Summary(pl.UTF-8):   Szybszy start OpenOffice.org 2
+Summary(pl.UTF-8):	Szybszy start OpenOffice.org 2
 Name:		oooqs2
 Version:	1.0.1
 Release:	1
