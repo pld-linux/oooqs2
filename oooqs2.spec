@@ -11,7 +11,7 @@ Patch0:		%{name}-desktop.patch
 URL:		http://segfaultskde.berlios.de/oooqs/
 BuildRequires:	automake
 BuildRequires:	kdebase-devel >= 3.0.5a
-BuildRequires:	qt-devel >= 3.0.5
+BuildRequires:	qt-devel >= 3:3.0.5
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
